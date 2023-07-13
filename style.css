@@ -5,39 +5,62 @@ body {
     font-family: Roboto, sans-serif;
     height: 100vh;
     margin: 0;
-        overflow: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex:1 1 750px;
+    
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    background-color: blue;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
 }
 
-.logo{
+.topbar ul {
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    list-style-type: none;
+  }
 
+.topbar ul a {
+    font-size: 22px;
+    color:white;
+    text-decoration: none;
 }
 
-.topbar{
-    display: flex;
-    justify-content: space-between;
-}
 
 .main{
     display: flex;
-    flex-direction: column;
+    flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: green;
 }
 
+.part-one{
+    display: flex;
+     justify-content: space-around;s
+    justify-content: center;
+    padding: 20px;
+    background-color:#1f2937;
+    height:250px;
+    color:white;    
+}
+
+.part-two{
+    background-color: white;
+        
+}
+
+.part-three, part-four{
+    background-color: rgb(229,231,235);
+}
 .container{
     display: flex;
     justify-content: space-between;
