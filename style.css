@@ -5,6 +5,7 @@ body {
     font-family: Roboto, sans-serif;
     height: 100vh;
     margin: 0;
+    padding: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -28,24 +29,33 @@ body {
   }
 
 .topbar ul a {
-    font-size: 22px;
+    font-size: 18px;
     color:white;
     text-decoration: none;
+
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
 .main{
     display: flex;
     flex: 1;
-    align-items: center;
-    justify-content: space-between;
+    
     flex-direction: column;
-    background-color: green;
+    
 }
 
 .part-one{
     display: flex;
-     justify-content: space-around;s
+    justify-content: space-around;s
     justify-content: center;
     padding: 20px;
     background-color:#1f2937;
@@ -53,24 +63,93 @@ body {
     color:white;    
 }
 
+.part-one-left H1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.part-one-right img{
+    width:200px;
+    height: 125px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
 .part-two{
-    background-color: white;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    background: #58FA58;  
         
 }
 
-.part-three, part-four{
+.part-three{
     background-color: rgb(229,231,235);
 }
+
+.part-three{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.part-four {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white; 
+}
+
+.action{
+    color: white; 
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.wrapper{
+    background-color: blue;
+    width: 750px;
+    border-collapse: separate; 
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin: 45px;
+    padding: 45px
+    
+}
+
 .container{
     display: flex;
     justify-content: space-between;
     justify-content: center;
     gap: 20px ;
+    
 }
-.
+
+.container img{
+    width: 200px;
+    height: 125px;
+}
+
 
 .footer{
     display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1f2937;
+  color: white;
 }
