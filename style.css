@@ -3,10 +3,10 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
-    
+        
 }
 
 .header{
@@ -53,12 +53,22 @@ body {
 .part-one{
     display: flex;
     justify-content: center;
-    align-items: center;
+    justify-content: center;
     padding: 20px;
     background-color:#1f2937;
-    height:250px;
+    
+    flex: 0 0 250px;
     color:white;    
 }
+
+.container-two{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 800px;      
+
+}
+
 
 
 .part-one-left H1{
@@ -80,7 +90,7 @@ body {
     height: 250px;
     margin: 0px;
     padding: 0px;
-    background: #58FA58;  
+    background: #white;  
     padding-bottom: 20px;
         
 }
@@ -97,7 +107,7 @@ body {
 }
 
 .part-three{
-    height: 250px;
+    flex: 0 0 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +153,12 @@ body {
     justify-content: space-between;
     justify-content: center;
     gap: 20px ;
-    
+    flex-wrap:wrap;
 }
+
+.container >*{
+    flex: 0 0 150px;
+  }
 
 .container img{
     width: 200px;
