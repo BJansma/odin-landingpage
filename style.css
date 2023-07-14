@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-
 body {
     font-family: Roboto, sans-serif;
     height: 100vh;
@@ -55,13 +52,14 @@ body {
 
 .part-one{
     display: flex;
-    justify-content: space-around;s
     justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color:#1f2937;
     height:250px;
     color:white;    
 }
+
 
 .part-one-left H1{
     font-size: 48px;
@@ -83,7 +81,15 @@ body {
     margin: 0px;
     padding: 0px;
     background: #58FA58;  
+    padding-bottom: 20px;
         
+}
+
+.part-two img{
+    border-collapse: separate; 
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-bottom: 10px;
 }
 
 .part-three{
@@ -145,6 +151,16 @@ body {
     height: 125px;
 }
 
+.button, .button-two{
+    padding:10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-collapse: separate; 
+    border-radius: 10px;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .footer{
     display: flex;
